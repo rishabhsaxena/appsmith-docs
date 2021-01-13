@@ -26,7 +26,5 @@ We sincerely hope this never happens to anyone but we acknowledge that there can
 
 ## What can't I do on Appsmith?
 
-Appsmith isn't built for complicated UI interactions that are common to e-commerce or other consumer facing websites. It works great for tools internal to your team or organization but you wouldn't get very far trying to build an attractive consumer website. For those use cases, we'd recommend you try [Wix](www.wix.com), [Squarespace](www.squarespace.com) or [Webflow](www.webflow.com). You can also perform some simple data visualisation & charting on Appsmith but for more in-depth business intelligence & analytics, we'd recommend [Tableau](https://www.tableau.com/), [Looker](https://looker.com/) or [Redash](https://redash.io/).
-
-
+Appsmith isn't built for complicated UI interactions that are common to e-commerce or other consumer facing websites. It works great for tools internal to your team or organization but you wouldn't get very far trying to build an attractive consumer website. For those use cases, we'd recommend you try [Wix](https://github.com/rishabhsaxena/appsmith-docs/tree/272331a7bed75b3019c374bf0414a29d09bb6403/www.wix.com), [Squarespace](https://github.com/rishabhsaxena/appsmith-docs/tree/272331a7bed75b3019c374bf0414a29d09bb6403/www.squarespace.com) or [Webflow](https://github.com/rishabhsaxena/appsmith-docs/tree/272331a7bed75b3019c374bf0414a29d09bb6403/www.webflow.com). You can also perform some simple data visualisation & charting on Appsmith but for more in-depth business intelligence & analytics, we'd recommend [Tableau](https://www.tableau.com/), [Looker](https://looker.com/) or [Redash](https://redash.io/).
 

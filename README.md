@@ -4,6 +4,10 @@ description: Appsmith is the fastest way to build internal apps over any databas
 
 # Introduction
 
+{% embed url="https://www.youtube.com/watch?v=0oESfogMnTY" %}
+
+
+
 ## Why Appsmith?
 
 Today when we need an internal app, our choices are limited to
@@ -26,5 +30,8 @@ Appsmith makes building internal tools as easy as
 Check out our demo video to see how easy it is!
 
 {% embed url="https://youtu.be/-O\_6OLREEzo" caption="Turn on your speakers" %}
+
 {% embed url="https://i.imgur.com/ChywTMQ.jpeg" caption="Turn on your speakers" %}
-{% youtube src="https://www.youtube.com/watch?v=9bZkp7q19f0" %}{% endyoutube %}
+
+{% embed url="https://www.youtube.com/watch?v=9bZkp7q19f0" caption="" %}
+

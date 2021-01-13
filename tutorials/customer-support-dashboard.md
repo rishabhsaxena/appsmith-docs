@@ -6,5 +6,5 @@ description: >-
 
 # Customer Support Dashboard
 
-{% embed url="https://youtu.be/-O\_6OLREEzo" %}
+{% embed url="https://youtu.be/-O\_6OLREEzo" caption="" %}
 

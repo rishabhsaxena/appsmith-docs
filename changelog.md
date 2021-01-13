@@ -245,13 +245,9 @@ description: >-
   * In case the sample response is null, don't set the cached response for the action.
   * Documentation object has been added in Action to handle the extra Template documentation for actions that have been imported from 3p marketplace
 * Updated Provider
-
-  - Include fields to help with display and sort order
-
-  - Credential steps should only be written but not read at Provider level
-
-  - The providers returned are sorted by sortOrder in ascending order
-
+  * Include fields to help with display and sort order
+  * Credential steps should only be written but not read at Provider level
+  * The providers returned are sorted by sortOrder in ascending order
 * Rest API and Rapid api plugin url encode the query parameters
 * Property Pane config changed to generic JSONObject on the server for faster updates for the front end
 * Show Appsmith as the From name in sent emails
@@ -304,35 +300,20 @@ description: >-
 ![File picker now accepts more file versions](.gitbook/assets/screen-shot-2020-03-20-at-10.50.23-am.png)
 
 * P0 issues fixed :
-
-  -  Property pane does not toggle for the containers when dragging/resizing a widget within the container
-
-  -  Property pane stays in the same state\(open/closed\) before and after drag/resize
-
-  -  Changing the UI reducers does not re-evaluate the datatree
-
-  -  Focus event does not trigger when moving the mouse out of the boundaries of a widget.
-
-  -  When the user clicks outside the canvas, the widget focus and selection is reset.
-
-  -  Fix invite users issue where selecting the roles dropdown used to cause a page reload.
-
-  -  Remove DropTargetMask Component. Use DragLayerComponent to render Grids
-
-  -  Fix canvas width to 1224px
-
-  -  Fix n-1 page save issue. This issue caused the previous state of the canvas to be saved. Resulting in the latest changes not being reflected in the published view and on reload
-
-  -  Removed Roboto font. It wasn't being used, however, was being downloaded
-
-  -  Increased the min bottom row offset for the main container to 5.
-
-  -  Dropzone mistakenly colored as colliding
-
-  -  Input validation with Dirty Check.
-
-  -  Backend segment events for create & delete of objects were not being sent.
-
+  * Property pane does not toggle for the containers when dragging/resizing a widget within the container
+  * Property pane stays in the same state\(open/closed\) before and after drag/resize
+  * Changing the UI reducers does not re-evaluate the datatree
+  * Focus event does not trigger when moving the mouse out of the boundaries of a widget.
+  * When the user clicks outside the canvas, the widget focus and selection is reset.
+  * Fix invite users issue where selecting the roles dropdown used to cause a page reload.
+  * Remove DropTargetMask Component. Use DragLayerComponent to render Grids
+  * Fix canvas width to 1224px
+  * Fix n-1 page save issue. This issue caused the previous state of the canvas to be saved. Resulting in the latest changes not being reflected in the published view and on reload
+  * Removed Roboto font. It wasn't being used, however, was being downloaded
+  * Increased the min bottom row offset for the main container to 5.
+  * Dropzone mistakenly colored as colliding
+  * Input validation with Dirty Check.
+  * Backend segment events for create & delete of objects were not being sent.
 * Fixes for disparity in the styles of the local and release builds.
 * Code Editor critical fixes.
 * Event tracking for analytics. Also segregated events for production and staging environment.
@@ -374,8 +355,6 @@ description: >-
 * Adding test cases in ActionService for some create Action workflows
 
 ## 24th February, 2020
-
-
 
 ![Action creation UI is now simpler](.gitbook/assets/screen-shot-2020-02-25-at-4.53.42-pm.png)
 
@@ -420,16 +399,15 @@ description: >-
 4. Brackets auto-close so that you don’t need to worry about tracking the exact number of brackets
 5. Drag and drop is smoother because the drop zone does not fly from far way when dragging for the first time. Friction is lower and tension is higher for more responsive spring animation.
 6. We started integrating with multiple third party APIs so that you can now find your SAAS products that you can integrate with
-
-* set value after initializing editor
-* autoclose brackets and default input
-* Fixed issue where login button is disabled despite having creds autofilled by chrome
-* Widget Styles 
-* Added default implementation in BaseRepositoryImpl for default JPA queries defined by Spring Data.
-* Added the permission to delete pages to acl.rego file 
-* Refactoring the code to add page archival for a given application 
-* Refactoring the code to fix bug where a user creating an organization wasn’t getting assigned the default groups
-* Renaming isPaginated to PaginationType to support different types of pagination on the frontend
-* Mock apis for 3P frontend work
-* Correcting the error response returned by the AclFilter to match the ErrorDTO returned from controller functions
+7. set value after initializing editor
+8. autoclose brackets and default input
+9. Fixed issue where login button is disabled despite having creds autofilled by chrome
+10. Widget Styles 
+11. Added default implementation in BaseRepositoryImpl for default JPA queries defined by Spring Data.
+12. Added the permission to delete pages to acl.rego file 
+13. Refactoring the code to add page archival for a given application 
+14. Refactoring the code to fix bug where a user creating an organization wasn’t getting assigned the default groups
+15. Renaming isPaginated to PaginationType to support different types of pagination on the frontend
+16. Mock apis for 3P frontend work
+17. Correcting the error response returned by the AclFilter to match the ErrorDTO returned from controller functions
 

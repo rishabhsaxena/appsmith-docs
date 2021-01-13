@@ -13,7 +13,7 @@ Come up with an idea to bring to life on Appsmith. This could be a personal app 
 * Leave Tracker
 
 {% hint style="info" %}
-A clear idea will help bring your app to life faster! 
+A clear idea will help bring your app to life faster!
 {% endhint %}
 
 ## Build the UI

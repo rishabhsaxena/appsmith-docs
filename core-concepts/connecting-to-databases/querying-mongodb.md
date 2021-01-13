@@ -1,6 +1,6 @@
 # Querying MongoDB
 
-Mongo databases can be queried using the mongo database [command syntax](https://docs.mongodb.com/manual/reference/command/nav-crud/). This syntax is slightly different from the database methods mongo collection methods you may be familiar with. All mongo queries return an array of objects where each object is a mongo document and properties of the object are the keys of the document. 
+Mongo databases can be queried using the mongo database [command syntax](https://docs.mongodb.com/manual/reference/command/nav-crud/). This syntax is slightly different from the database methods mongo collection methods you may be familiar with. All mongo queries return an array of objects where each object is a mongo document and properties of the object are the keys of the document.
 
 Appsmith provides template queries to help with the syntax
 
